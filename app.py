@@ -22,7 +22,8 @@ def predict():
         input_cols = [[age, bmi, children, sex, smoker, region]]
         prediction = model.predict(input_cols)
         output = round(prediction[0], 2)
-        return render_template("index.html", prediction_text="Your predicted annual healthcare expense is ${}".format(output))
+#         return render_template("index.html", prediction_text="Your predicted annual healthcare expense is ${}".format(output))
+        return "Your predicted annual healthcare expense is ${}".format(output)
 
 if __name__ == "__main__":
     app.run(debug=True)
