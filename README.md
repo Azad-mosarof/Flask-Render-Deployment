@@ -56,3 +56,6 @@ python app.py
 - Deploy the app and wait for it to build and start.
 
 - Access the app URL to confirm that it's working.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
