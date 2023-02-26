@@ -57,5 +57,7 @@ python app.py
 
 - Access the app URL to confirm that it's working.
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+## 📝 License
+
+Copyright © 2023 [Azad Mosarof](https://github.com/Azad-mosarof).<br />
+This project is [MIT](https://github.com/Azad-mosarof/Flask-Render-Deployment/blob/main/LICENSE.md) licensed.
