@@ -7,5 +7,7 @@ Prerequisites<br>
 2. Flask 2.0.1 or later
 3. Render account
 
+<b>Getting Started<b><br>
+Clone this repository:
 
 
