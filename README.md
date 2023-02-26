@@ -29,13 +29,29 @@ python app.py
 5. Navigate to the app URL in your browser.
 
 ## API Usage
-The API endpoint URL is https://your-app-url.com/predict. You can send a POST request to this URL with the following parameters:
+The API endpoint URL is https://flask-render-app-glku.onrender.com/predict. You can send a POST request to this URL with the following parameters:
 
-- input: Provide Input to the model for annual health expenses prediction.
+- input: Provide Input to the model for annual health expense prediction.
 
   The response is a JSON object with the following keys:
 
-- label: The predicted label for the text.
-- confidence: The confidence score for the predicted label.
+- jsonData: The predicted annual health care expense.
 
+## Deployment
+- Sign up for a Render account.
 
+- Create a new Render app and link it to your GitHub repository.
+
+- Configure the app by specifying the following:
+
+- Build command: 
+```sh
+pip install -r requirements.txt && python app.py
+```
+Start command: 
+```sh
+python app.py
+```
+Deploy the app and wait for it to build and start.
+
+Access the app URL to confirm that it's working.
