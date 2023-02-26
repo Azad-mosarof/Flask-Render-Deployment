@@ -10,16 +10,22 @@
 ## Getting Started
   
 1. Clone this repository:<br>
+```sh
 git clone https://github.com/your-username/your-repo-name.git
+```
 
 2. Install the required dependencies:<br>
+```sh
 pip install -r requirements.txt
+```
 
-3. Update the API endpoint URL in the app.js file to match your Render app URL.<br>
+- Update the API endpoint URL in the app.js file to match your Render app URL
 
-4. Start the Flask app:<br>
+- Start the Flask app:
+```sh
 python app.py
+```
 
-5. Navigate to the app URL in your browser.<br>
+- Navigate to the app URL in your browser.
 
 
