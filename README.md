@@ -33,7 +33,7 @@ The API endpoint URL is https://your-app-url.com/predict. You can send a POST re
 
 - input: Provide Input to the model for annual health expenses prediction.
 
-The response is a JSON object with the following keys:
+  The response is a JSON object with the following keys:
 
 - label: The predicted label for the text.
 - confidence: The confidence score for the predicted label.
