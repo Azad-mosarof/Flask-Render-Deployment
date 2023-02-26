@@ -33,7 +33,7 @@ The API endpoint URL is https://flask-render-app-glku.onrender.com/predict. You 
 
 - input: Provide Input to the model for annual health expense prediction.
 
-  The response is a JSON object with the following keys:
+- The response is a JSON object with the following keys:
 
 - jsonData: The predicted annual health care expense.
 
@@ -46,12 +46,13 @@ The API endpoint URL is https://flask-render-app-glku.onrender.com/predict. You 
 
 - Build command: 
 ```sh
-pip install -r requirements.txt && python app.py
+pip install -r requirements.txt
+python app.py
 ```
 Start command: 
 ```sh
 python app.py
 ```
-Deploy the app and wait for it to build and start.
+- Deploy the app and wait for it to build and start.
 
-Access the app URL to confirm that it's working.
+- Access the app URL to confirm that it's working.
