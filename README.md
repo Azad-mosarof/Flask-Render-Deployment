@@ -1,4 +1,4 @@
-<h5>AI Model Deployment using Flask and Render</h5>
+<h1>AI Model Deployment using Flask and Render</h1>
 
 This project demonstrates how to deploy an AI model using Flask and Render cloud. The AI model was built, trained and deployed on the cloud, and is accessible via an API.<br>
 
@@ -9,15 +9,17 @@ This project demonstrates how to deploy an AI model using Flask and Render cloud
 
 <b>Getting Started</b><br>
   
-1. Clone this repository:
+1. Clone this repository:<br>
 git clone https://github.com/your-username/your-repo-name.git
 
-2. Install the required dependencies:
+2. Install the required dependencies:<br>
 pip install -r requirements.txt
 
-3. Update the API endpoint URL in the app.js file to match your Render app URL.
+3. Update the API endpoint URL in the app.js file to match your Render app URL.<br>
 
-4. Start the Flask app:
+4. Start the Flask app:<br>
 python app.py
+
+5. Navigate to the app URL in your browser.<br>
 
 
